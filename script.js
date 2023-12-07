@@ -7,7 +7,7 @@ const divide = (arr, n) => {
 	let sum = 0;
 	for ( let i = 0; i < arr.length; i++ ){
 		sum = sum + arr[i];
-		if(sum > n){
+		if(sum >= n){
 			ans.push(subarr);
 			sum = arr[i];
 			subarr = [];
